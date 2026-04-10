@@ -1,7 +1,7 @@
 # Hybrid E-commerce Intelligence System with A* Search and Contextual Bandit Orchestration
 
 ## Description
-intelligent e-commerce recommendation system that uses A* search to efficiently navigate product categories and find relevant items. It combines unsupervised clustering (K-Means), collaborative filtering (KNN), and a Random Forest classifier for purchase prediction, while a Contextual Bandit (simplified reinforcement learning) dynamically decides which recommendation strategy to show each user for maximum engagement.
+An intelligent e-commerce recommendation system that combines A* search for efficient product navigation with machine learning models for personalization. A contextual bandit (simplified reinforcement learning) orchestrates between collaborative filtering (KNN) and purchase prediction (Random Forest) to adaptively recommend products based on user segments identified through unsupervised clustering.
 
 ## Project Components
 
@@ -14,6 +14,16 @@ intelligent e-commerce recommendation system that uses A* search to efficiently 
 | Strategy Orchestration | Contextual Bandit (LinUCB) | Decide whether to show KNN or Random Forest recommendations to maximize engagement |
 | Data Processing | Pandas, NumPy | Clean and transform RetailRocket e-commerce dataset |
 | Evaluation | Scikit-learn, Matplotlib | Measure silhouette score, F1-score, cumulative regret, and CTR |
+
+## Learning Types
+
+| Component | Type of Learning | Algorithm/Method | Purpose |
+|-----------|-----------------|------------------|---------|
+| Product Path Finding | Informed Search | A* Search | Find optimal path from category to target product using heuristic function |
+| User Segmentation | Unsupervised Learning | K-Means Clustering | Group users into personas based on browsing/purchase behavior |
+| Collaborative Filtering | Instance-Based Learning | K-Nearest Neighbors (KNN) | Recommend items liked by similar users |
+| Purchase Prediction | Supervised Learning (Classification) | Random Forest | Predict probability a user will buy a specific item |
+| Strategy Orchestration | Reinforcement Learning (Simplified) | Contextual Bandit (LinUCB) | Decide which recommendation method to show to maximize engagement |
 
 ## Dataset
 - **Source:** RetailRocket Dataset (Kaggle)

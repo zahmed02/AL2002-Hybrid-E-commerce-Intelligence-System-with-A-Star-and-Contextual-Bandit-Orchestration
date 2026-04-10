@@ -1,1 +1,1 @@
-# AL2002-Hybrid-Recommender-A*-Search-and-Contextual-Bandits-Orchestration
+> A hybrid recommendation engine that combines A* search, K-Means clustering, KNN, Random Forest, and a Contextual Bandit (LinUCB) to optimize product suggestions in real-time. The system learns which recommendation strategy works best for different user segments to maximize engagement.

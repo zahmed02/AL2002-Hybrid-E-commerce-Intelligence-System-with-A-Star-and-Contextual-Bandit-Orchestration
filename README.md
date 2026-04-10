@@ -15,9 +15,11 @@ An intelligent e-commerce recommendation system that combines A* search for effi
 | Data Preprocessing | Pandas / NumPy | Data Engineering | Clean and transform dataset |
 | Baseline Comparison | Linear Regression | Supervised (Regression) | Compare against Random Forest |
 
-**Evaluation Metrics:** Silhouette Score (clustering), F1-Score & RMSE (Random Forest + Regression baseline), Cumulative Regret (Bandit), Path Cost (A*)
+## Evaluation Metrics: 
+Silhouette Score (clustering), F1-Score & RMSE (Random Forest + Regression baseline), Cumulative Regret (Bandit), Path Cost (A*)
 
-**Tools:** Python, pandas, numpy, scikit-learn, matplotlib
+##Tools:
+Python, pandas, numpy, scikit-learn, matplotlib
 
 ## Dataset
 - **Source:** RetailRocket Dataset (Kaggle)

@@ -13,6 +13,11 @@ An intelligent e-commerce recommendation system that combines A* search for effi
 | Purchase Prediction | Random Forest | Supervised (Classification) | Predict buy probability |
 | Strategy Orchestration | Contextual Bandit | Reinforcement Learning | Choose best recommendation method |
 | Data Preprocessing | Pandas / NumPy | Data Engineering | Clean and transform dataset |
+| Baseline Comparison | Linear Regression | Supervised (Regression) | Compare against Random Forest |
+
+**Evaluation Metrics:** Silhouette Score (clustering), F1-Score & RMSE (Random Forest + Regression baseline), Cumulative Regret (Bandit), Path Cost (A*)
+
+**Tools:** Python, pandas, numpy, scikit-learn, matplotlib
 
 ## Dataset
 - **Source:** RetailRocket Dataset (Kaggle)

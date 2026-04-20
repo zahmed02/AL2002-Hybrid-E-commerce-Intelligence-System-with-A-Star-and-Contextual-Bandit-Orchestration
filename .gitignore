@@ -1,0 +1,5 @@
+"data/raw/*.csv" 
+"data/processed/*.pkl" 
+"data/processed/*.npz" 
+"data/processed/*.npy" 
+"data/processed/*.csv" 
